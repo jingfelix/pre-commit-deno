@@ -19,6 +19,13 @@
   types_or: [javascript, jsx, ts, tsx]
   pass_filenames: false
   language: system
+- id: deno-check
+  name: deno check
+  description: Perform type-check on all JavaScript and TypeScript source code files.
+  entry: deno check
+  types_or: [javascript, jsx, ts, tsx]
+  pass_filenames: false
+  language: system
 - id: deno-test
   name: deno test
   description: Run tests.
